@@ -2,7 +2,7 @@ Summary:	GUI interface to Go playing programs
 Summary(pl):	Graficzny interfejs dla programów do gry w go
 Name:		goben
 Version:	0.1.1
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://www.waz.easynet.co.uk/misc/goben/%{name}-%{version}.tar.gz
