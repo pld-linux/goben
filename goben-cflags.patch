@@ -1,0 +1,10 @@
+diff -Nru goben-0.1.1-orig/Makefile.am goben-0.1.1/Makefile.am
+--- goben-0.1.1-orig/Makefile.am	2004-01-11 05:39:31.000000000 +0100
++++ goben-0.1.1/Makefile.am	2004-06-12 15:50:25.235397439 +0200
+@@ -7,5 +7,4 @@
+ DISTCLEANFILES  = .deps/*.P
+ pkgdata_DATA = goben.gtkrc board.xpm
+ EXTRA_DIST      = README goben.gtkrc.in board.xpm
+-AM_CFLAGS = -g -O2 -Wall -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wstrict-prototypes
+-
++AM_CFLAGS = $(CFLAGS)

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=goben
+Comment=GUI for playing Go
+Comment[pl]=GUI do gry w Go
+Exec=goben
+Terminal=0
+Type=Application
+Categories=Game;BoardGame
+# vi: encoding=utf-8

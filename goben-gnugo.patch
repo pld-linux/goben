@@ -1,0 +1,12 @@
+diff -Nru goben-0.1.1-orig/game.h goben-0.1.1/game.h
+--- goben-0.1.1-orig/game.h	2004-01-12 04:46:57.000000000 +0100
++++ goben-0.1.1/game.h	2004-06-12 16:07:15.100593574 +0200
+@@ -12,7 +12,7 @@
+ #include "sgftree.h"
+ 
+ /* default settings you might want to edit */
+-#define GNUGO_PATH "/usr/local/bin/gnugo"
++#define GNUGO_PATH "/usr/bin/gnugo"
+ #define GNUGO_OPTIONS "--mode gtp --quiet --level 1"
+ 
+ /* limits */

@@ -1,0 +1,16 @@
+diff -Nru goben-0.1.1-orig/cfg.c goben-0.1.1/cfg.c
+--- goben-0.1.1-orig/cfg.c	2004-01-12 04:43:43.000000000 +0100
++++ goben-0.1.1/cfg.c	2004-06-12 16:18:53.000000000 +0200
+@@ -38,8 +38,11 @@
+ {
+ 
+ 	GString *file;
++	const gchar *home_dir = g_getenv("HOME_ETC");
++	if (!home_dir) home_dir = g_get_home_dir();
++
+ 	/* Construct filename */
+-	file = g_string_new(g_get_home_dir());
++	file = g_string_new(home_dir);
+ 	g_string_append(file, "/");
+ 	g_string_append(file, GOBEN_CFG_FILENAME);
+ 
