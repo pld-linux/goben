@@ -1,9 +1,10 @@
 [Desktop Entry]
+Encoding=UTF-8
 Name=goben
 Comment=GUI for playing Go
 Comment[pl]=GUI do gry w Go
 Exec=goben
-Terminal=0
+Terminal=false
 Type=Application
 Categories=GTK;Game;BoardGame
 # vi: encoding=utf-8
