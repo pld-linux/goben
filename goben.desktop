@@ -6,5 +6,5 @@ Comment[pl]=GUI do gry w Go
 Exec=goben
 Terminal=false
 Type=Application
-Categories=GTK;Game;BoardGame
+Categories=GTK;Game;BoardGame;
 # vi: encoding=utf-8
