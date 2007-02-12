@@ -1,5 +1,5 @@
 Summary:	GUI interface to Go playing programs
-Summary(pl):	Graficzny interfejs dla programów do gry w go
+Summary(pl.UTF-8):   Graficzny interfejs dla programÃ³w do gry w go
 Name:		goben
 Version:	0.1.1
 Release:	5
@@ -21,9 +21,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 goben is a GUI frontend to GNU Go and other Go playing programs that
 can talk GTP.
 
-%description -l pl
+%description -l pl.UTF-8
 goben dostarcza interfejsu graficznego do gry w go z GNU Go oraz
-innymi programami obs³uguj±cymi protokó³ GTP.
+innymi programami obsÅ‚ugujÄ…cymi protokÃ³Å‚ GTP.
 
 %prep
 %setup -q
