@@ -1,5 +1,5 @@
 Summary:	GUI interface to Go playing programs
-Summary(pl.UTF-8):   Graficzny interfejs dla programów do gry w go
+Summary(pl.UTF-8):	Graficzny interfejs dla programów do gry w go
 Name:		goben
 Version:	0.1.1
 Release:	5
